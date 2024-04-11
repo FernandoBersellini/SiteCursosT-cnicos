@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- menu nav -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="imagens/Logo Streamer Ousado verde Limão e Preto(1).png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobreNos">Quem somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cursos">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#profissionais">Profissionais</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--  -->
+
+    <!-- Slides -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Desenvolvimento Web Front-End</h5>
+              <p>Neste curso você aprenderá tudo para poder criar sites dinâmicos e responsivos.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1563770660941-20978e870e26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhhcmR3YXJlfGVufDB8fDB8fHww" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Conserto de Hardware</h5>
+              <p>Adquira o conhecimento para o conserto de qualquer tipo de hardware neste curso.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHB5dGhvbiUyMHByb2dyYW1taW5nfGVufDB8fDB8fHww" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Python - Do básico ao avançado</h5>
+              <p>Aprofunde-se no Python e descubra tudo o que esta linguagem tem a oferecer.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--  -->
+
+    <!-- Sobre nós -->
+      <section class="container" id="sobreNos">
+        <h1 class="display-1 d-flex justify-content-center">Sobre nós</h1>
+        <p class="d-flex justify-content-center">
+            Bem-vindo à nossa plataforma de cursos técnicos em tecnologia, onde buscamos capacitar indivíduos com as habilidades essenciais para prosperar na era digital. Com uma equipe dedicada de especialistas em educação e tecnologia, oferecemos uma variedade de cursos práticos e atualizados, projetados para atender às demandas do mercado de trabalho em constante evolução. Nossa missão é proporcionar uma experiência de aprendizado acessível, flexível e de alta qualidade, capacitando nossos alunos a alcançarem seus objetivos profissionais e contribuírem significativamente para o mundo da tecnologia. Junte-se a nós e dê o próximo passo em sua jornada rumo ao sucesso na área de tecnologia!
+        </p>
+      </section>
+    <!--  -->
+
+    <!-- Menu Cursos -->
+      <section id="cursos">
+        <h1 class="display-1 d-flex justify-content-center">Cursos</h1>
+
+        <ul class="nav nav-tabs d-flex justify-content-center mt-5" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="hardware" data-bs-toggle="tab" data-bs-target="#hardware-pane" type="button" role="tab" aria-controls="hardware-pane" aria-selected="true">Hardware</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="frontend-tab" data-bs-toggle="tab" data-bs-target="#frontend-tab-pane" type="button" role="tab" aria-controls="frontend-tab-pane" aria-selected="false">Fronted</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="backend-tab" data-bs-toggle="tab" data-bs-target="#backend-tab-pane" type="button" role="tab" aria-controls="backend-tab-pane" aria-selected="false">Backend</button>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="hardware-pane" role="tabpanel" aria-labelledby="hardware" tabindex="0">
+                <section class="container mt-5">
+                    <div class="row g-5">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1563770660941-20978e870e26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhhcmR3YXJlfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Manuntenção de Hardware</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a href="#" class="btn btn-primary">Matricula-se!</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVkZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Instalação de redes</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Matricula-se!</a>
+                              </div>
+                            </div>
+                      </div>
+
+                      <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFwdG9wfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Conserto de notebooks</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Matricula-se!</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <div class="tab-pane fade" id="frontend-tab-pane" role="tabpanel" aria-labelledby="frontend-tab" tabindex="0">
+                <section class="container mt-5">
+                    <div class="row g-5">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://media.istockphoto.com/id/1438634414/pt/foto/business-women-laptop-and-and-happy-team-in-office-for-web-design-collaboration-and-training.webp?b=1&s=170667a&w=0&k=20&c=m-3MLU7IDG5AP3QNwhfv5kXNhPS0gTlevT_M7kCAe5c=" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">HTML + CSS + Javascript</h5>
+                                  <p class="card-text">Este curso contém o necessário para você aprender as tecnologias mais usadas atualmente para criação de sites.</p>
+                                  <a href="#" class="btn btn-primary">Matricule-se!</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAwFBMVEUAAAB93/////9+4f+A5v9/5P9+4v+B6P900u952/nP0NF63Pp31/VwyuZsxN9hsMhQkqZEfI2/v79XWFheqsFLiZxpvtg0X2xVm7CFhYUoSlRZobdHgpQ7a3ovVmLFxcU2Y3ERISYYLTN4eHjq6uoeNz8iP0cGDhAdNj0oSVMXKzHt7u62t7fe3t46Ojo/c4IKFRglJiakpaWXmJhDQ0NlZmeKiosTJClPUVGqq6sUFxl5e3tqamopKitISUkeHx9T/JWYAAAMmUlEQVR4nO1dC3uiOBeGJgGsINiqWFHraGvvOlOn7fZrp/P//9XHOQk3CUz77I6tIe+zz1YhsPDuOSfnlmgYGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoazcZVNxj2Z/P3DF12h70omF387Uf6qui7NmMWs6kTjepHhr0WDLUYJVEj6Tp3qClALOp1q0eOHdtKh7L2H4hVEXMzJQBJoG4FXeMWI4WRbLnbJ/0CcCx8cUpZwgX1puVhUyF/JFbBeCxe5O7+aT8XfeCAeeNwOgk6jHFC7N62QYpswqWJDPrh8moygMvo8FMe+fNAYhKYL77MA5fLD3MLwjV1GSfRGX8Xh4YUpOzbbh/2k9GFd3byB1qUm66c1AQoVoQ569xAD1ju7+o5vwQ6sfGh68KhAA2SSTuJKqLKmRYLCsNCO+bP29Fjfgl8j9WLtLcOnnc4Oy7OdpeO4O5ya5gDR5ukh2FMi+WXDvdxYiRWGJsrwlWwrHARCOVkF0/5RdCPJYuNy8dHaNEJXU8ot/cSB3QC1wbl48qiB9Ih8aqMiw7Of9z3Yp3vkiFLWyqV6mIQk2U/SU9FduKq2z3pgAuwd52/+XRfDDj/V5zrcw+1WtXaW16H6ohnNEKqTvZwGqzWNDc+26SIB963VXFuLZIRtEqynJqLVQS877abJTDJbFZFGqJxZBGTmNIzU4r+FXpZttybapoaVhr4uclZmtnokl7JxjTNwKPrIAtZHOQqdlfXyFZLNoY0zHXwgSxJwhNIFJa9D2xZkoh53jSndAge/Kx8GFN7wheNwN9iZVamEFdGf/kBvxLG0thwXRQmFDO7FEmvWcMSWqFMOs4hICStLLPMDdh2CDlkDcs6XANZ20baA0li4eXVaDSdjkbL+QjLE62taBrsHT3f2aN+AbTB68y+XobdYMBLYxa1qYA44AXdMDcZQKhk7f6JPxGDZDqcTwLfa0NBrFBGLBYKGaWm5wdruOA7bVpaGadDFowHLtQCCaniKccYsWLO2oMAkhKWPHmjKmZYNixJU0wJgAHgQ4nG+BxcuP7zf0EZLAOPFCji36yW0xn4vWiIiHr+oOO5VmGIuMAZytKsCuK679G0ewG0ixKnA99L0yPCx6x8xyOxwc8E0bKdofozYuizrM+DULMTrUfcHSBEnmdumTwWXE6GgzbNrmX2QG1va+0lzUOYiOmIrALmsKrSV1BVNalw95cDIi4G8aKupEKkCCaOEAzCqGfmyqxufNgaVF3WgwoFueZfIPNnZnpMWzV9XXuMq47oiLGoEywNMFOiGobNHqy6WRIUUeQZrriXBXbP4nejTriTx98phsIhZ1YPKUJ/CcPDS8w11JRNUUs5sQFE0dg7sozaSaOSLysv7jFETyRh7UDk887hVTE7DN58feozGwGxtZ2UqcdJo1JLKUdiwm0MM3OpFXC1aMjzU6ad06Ww57XaXm+WHblkwsZf2WYh/951uRUsJ3L2F2PeaEULncZJ3OIVrfs0njAhVWPZ7iw9OBRdN8NUCxME3PmylckGdrG6xZxi+WEOEkV4mdBO+4r6duZJ5RiALEXMUhukces2vI1LldbJEFWl/P8eLBHrgi/A0nNBWjUsygt2Cppracahj/enavgQLXzvcuyLMsXbsJIizpSaBWRXOaiaQErZPIVwE8JUCH8i9AxkkUkSHGdug7OdZUgrz5OERiapjl2xWq92f/ANXkQiDgbv4SswEm4JVl65OiIzIS2CYcbH3v+lF93qdqpzbqAyJnulbGkmLoJIaQscv9LafxuP9YWKiATT7rlGXG9bC/MdIHiyKqF8qUayGWPAinNTTHtmgU6rxJXJUtcsrM2RwqS6/90itWRhcjlLs9SSNUOyqhwENfqQfHmlHsHVcEvT6tWwIoY8V0MNawz8XMTBqWjVGfgZH2zLzR/kvBQw8DWuw1C02qa2ps51EFIn96bQC7Ol3Vz7BeyGoTLDnJiorM1jWw8zFU27J6kkSThSxSk1LloQjEhCt0ka7qTOw9QukpULd0yRepd0fIdMmXCnPpAeQ4dolnXp1wXSbbRbJQeBJyqq6h37hiRFUwxHvoHlty6wKYteJ0f7tDJFExs+XBFW9OHnA7y7vf/WXSBN/uWT5V2xMgyC51zElyb/qDNLD2Lyr8VT8MVGB+WSf/K0MnqrE1EXzLesTSPPdbfSyoTrGbhT+Qb6rsuUSysbxjIpWJCkYPHEkvd+Z8ECXc4OyUWafb6E2rTUKlgYkNYSpTDm46uBs8q1D0thdV2is6wUljUcLSOiainMgCIrzRdZB9mCVF5kva680s1W6l/y+XDe55YNSFSxyGpA+d7OyvewTiJplKwv30cs1zUCbivxso0zVO528GiuMcRMnIlZXWPIqNgYYiUX45Ys6lIFmA5YzpOizIu6VzyCJkzecuSK5SfLddSxaBZqM9pRu+UI8JRvZsM9ZlhdM1skmtksSnNdkxZ1hw3Zv2erTTLRK8vxeJdkAMA+Sc+Rtkm6kWrOQh2wacEqN+BaaQMu/1RqwGVbmegmAP2l4dh37Q+0dlPa8vuwdEeJbMz7gWvoYC58mgU+NNf+adGA5fnBDF0xLD9/8uPvFk5xKevltBsMWKJosK0YZQl9VidYh7kNaTDiedeeiqogDfZy4AudJpdXo+kUVzqNUK62Fzr1mrYXjXSLlGtUsHbWy+BJl9CNm7beEFKe5SkNHXkrzT/gcoFyqQPXKjZp8Q7uclQOb7A7K5nqAkxGlPtAIJZu1HQ4rNjliAsTik23akE5btzTpK0KehWr77mRtwNRUyVt2awHFbSK7UaUROW+Dk8tvrHDiFe3pEENbDfSJEcLq2DSM0uMcKy67VVwuxH1kqOV6FTvnxWmGRy7IlmFXmmDdkisISvtHq1coIIXN4gsTMBXnQwwzCGV3kHT1NCvMvAG3y0SwKrqplCWbtJeBeg6yDuEgnSJBauQLSjl73+T3/uBK+Gkc53P+yL4nOhu734LeFKjye/9WEtjQ8OYe5hxt/tXfF0wkRBasXuuuljK47sJLjjBXq652Au3HDEHTcs6YMiyPaN999HFskz025O9cJ1tLx4mw1LeRmn4VmkDrW7b4uwkdfxINCr5hWkTaq6lDb/VBsTJJD+lzTy+jaSds0Zrnli22DC3qBNctEalswy+f2bmG6w9WzRwFRp157yXhDASJSkKzHJRBfqSPwJMVzFvvbycdv1kIxB7sF3B7/PfAoEf5onW02kXqxqNmgsRaL9J+vsw8NmVOArXvthjhMBPP/GfkiHV3UmK4ptbLBQysyJwnnbs4siKRRZK4yn7+SvToq2g+jfAwoHN0qo1Iw3kKkbQovBjaYy2/D/UAeeBR6Dsymg7alBypoiwH0VB913Ldb+F3SAYN8oZ1dDQ0NDQ0NDQ0NDYAywQr8c//vWdHhaLY/zw4/H29Oj++F/f8OvhIMHZw0cuW9yc3W4dOjw4OIW/z+KGN//8Zw/5VXCQYfGBy04EMznEZB0ZGVcxPkT/PiB+p8Pn5+dDEIUPXFZJ1v/gRo8Pi6P47+a/fNCvgPidXuDvJv7Ak3wnscXZrPhZMD+nt6nIHT+fnj6/xh8WsfzcvS4KdomTtYjvgxcvDtSzWvG7ncDff8RLHgsVQqm4TxTqJ449FNZtlSjvUf5OnKyXhCwVkZD1EH/4bRgr4ODwjFswIO7m8A74gSGHCXW3NWThNY+/PuNV/j6EGv4ESuK/pzFVBiol8PPrDohccWF54Ly+ncGxagN/xqfCW+Wsu1GYDe/5V1S5G5QzgZjIY+Qx8xaqyfpxlrgOrzt4/N0i4wokCoToJMZLTNYbnH7Y3KIeHqPIZK9fTVZ87k7cUTm2UAbgX+hCHmfcAT8PN7kvyRhEHVmGcYGew4d8kb0AmvJNYuaBrNPT08P4n8M3bu2PNi9nHyVLfM1pshrgNN2JN1txMy/wLKbBu0QNMx9fQtadIEu4V8cK+hCcrJWwWUYSpKB/eijcLS5ZR4Kf/8G/TsT4HG74BLARJzIvVx0IBUwUEWzNyc/V4ubuN36JX/ztUBgw8LDeVq8HhzEHr/GXX8abuMnm7H4Dox75jQ5uN/fw9e4T3+uvILFWoIixzPxO7fsNpycz8OA7cJzxEDBT2cRbSG4koFzaISHrl5CElXjZO3DCebhz/8zJShIKIHTGI37kYdBK0MvJSWKkO+W4MlarFZ+zfq1WP9HGvD3e3z+KF11t7h9/GD9WKzRUxu+X+PtPcerxfrPgh41fi839Joubj082mxfVjLuGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGxmfg/4g1t8L5jjW4AAAAAElFTkSuQmCC" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Curso React</h5>
+                                  <p class="card-text">React é um framework para front-end altamente utilizado. Aprenda tudo sobre neste curso.</p>
+                                  <a href="#" class="btn btn-primary">Matricule-se!</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QDxAQEA8QEBEVFhAVGBUREBAQExcSFhIYFhUSGBkYHSkgGBolGxUVIjEhJSkrLi4vFx8zODMtNygtLisBCgoKDg0OFxAQGy0iHx0tLTYuNystLS0tLS0tLS0tLS01KystLS0tNi0tLS0tKy0tLSsrLS0tLS0tLS0tKy0tN//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYDBAcBAv/EAD4QAAICAQIDBQYEAwUJAQAAAAABAgMEBREGEiETMUFRYQciMnGBkVKhwdEUI3IzYoKxwjZCQ0RTorLD4hb/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAgMFBAH/xAAlEQEAAgEEAQQDAQEAAAAAAAAAAQIDBBEhMRIFEyJRFEFSMhX/2gAMAwEAAhEDEQA/AOPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMuNjztmoVxc5PuSLppPBUElLJlzv8EW1Fejfezow6bJm/zCFrxXtRkZ4YV0vhptfyrm/wBDrGLgU1LauqEPlFJ/c2TRr6V/VlM6j6hx+WBeu+m1fOua/QwSW3R9Pn0OzmHIxa7FtOuE1/eimLelfViNR9w46DoOqcGUT3dLdMvLrKD+nevoUrUtMux58lsNvJrrF/Jmfn0mTF3HC6uSLdNMAHMmAAAAAAAAAAAAAAAAAAAAAAAAH3VVKclGK3k2kkvFs+C0cFYsI9pl3NRhX7qcu7ma6v57dPqW4cfuXiEbTtC08O6JDFr26O2XxS/0r0RLlD1fjSyTccdckfxyW8n8l3Ir9uq5MnvK+1v+uS/JGv8AnYcMeNI32c/tWtzLrgOUYuu5db3jfZ8pPnX2ZbdA4uja1XkJVzfRSXwSfr+Fl2H1DHknaeELYZhagAd6oNfNw67oOuyKlF+fh6p+DNgHlqxaNpew5hxFoM8WW63lU37stu7+7L1/zIY7JkURsi4TipRa2afc0UHX+E7Km50J2V+S6zj+6MLV6CaT5U6dWPLvxKsg9a26Po/J9GeGbtK8Pquty32W+y3fovNkhpOh5GS1yQah4zkmor9/oS/EmNVh48MWvrZY1KyXi4x7vkt/D0Lq6e01m88RCE3jfaFWABQmAAAAAAAAAAAAAAAAGzdmTlXCrurhu9l4yb3cn5s1gexMx0bAAPAAAFt4W4o7PanIlvDujN9XH0l6epeotNbrqvM4wTugcTW420Jb2Vfhb6x/pf6Gro9f4/DJ058mHfmHSwaGm6xj5C3qsTf4X0kvozfNqt62jeJc0xMAAJPGtkafRZ/aVVz9ZQi39zFVo+LF7xx6k/6Is3iL1bX8fGT55qU/CEdnLf18vqU3jFX5W2SjyniG3n5ldFUrJvaMV934JepyrU86eRdO2ffJ9F5R8Ir6GxretW5U95+7BfDBdy9fV+pGmFrNV7s+NeodeLH48z2AA4VoAAAAAAAAAAABYeF+HHkvtLN40p/Jza8F5L1LMWK2W3jVG1orG8ojA066+XLVXKfm10S+b7kWTD4GsfW26MPSCcn930LrjY8K4qFcVCK7klsjKbeH0zHWPnzLmtnmelXr4Hxl8VlsvrFfofUuCcXwncv8UX+hZgdP4eH+UPct9qZk8CL/AId738px3/NFf1Lh7Kx+s6+aP4oe8vr4o6mGUZfTsVo44SrmtHbi4Oh6/wAKV3JzpSrt79u6EvmvB+pQMmidc3CcXGS6NMx9Rpr4Z56dNLxZjABzJvU9nuuj810ZJ4vEOZX0jfJryltP/MiwTrktXqXkxE9rFHjPMX/Sfzrf6M8nxlmPudS+Vf7tleBb+Vm/qUfbr9JHL13Lt6Tvnt5R2gv+0jgCq17W7lKIiOgAEHoAAAAAAAAAAAAA39D015N8Kl0XfJ+UF3/t9TpOVnY2JCMZzjXFLaMV1lsvJIomj6pHEonOCUr7Hst+qjCP+8/m9+noQ2RfOyTnOTnJ97k92aGHUV09PjzaVVqTeeel4v45pT2hTZJebcYn3j8cY7e067IevSS/LqUAHn/Rzbns1dgwc6q+PNVOM16PqvRrwNg5BgZ1lE1ZVJxkvs15NeKOj8Pa9Xlw8I2r4of6o+aNPS66uX424lRkxTXmEwADQUhEcQaFXlw8I2r4Z7fk/NEuCvJjrevjZ7EzHMOP52FZRN12xcZL7NeafijXOualplORHltgpeT7pL5PwKrlcCvf+VetvKyPX7ow8/p16z8OYdVM0T2poLVXwPe31tqS9OZk5pXCOPS1Ke9013cySin/AE/uVU0Ga08xslOWsKfj6Q4488q5OMNtq4vo5zl0T/pXf9CJLPxzqistjRB+5X37dzn5fRFYKdRWtbeNf0lSZmN5AAUJgAAAAAAAAAAAAAAAAAAAAAZMe+dc1OEnGS6poxg9iZid4HRuHuKK8hKFrVd32jL5eT9CxHFyd0rirJo2i32sF4T718pd/wBzX03qW0eORzXwfurpYKxi8bY0v7SNlb+XOvuuv5EhDibCf/Hivmmv0NKuqxW6tCmaWj9JcERPiXCX/MQfy3f6Gjlca4sfgVlj9I8q+8hbU4q92gilvpZSscUcSxpTqpkpWvo2uqh/9Fd1XizIuTjHamD8IfE/nL9iAM3U+oxMeONfTD+5et79X1Z4AY7oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0H2Y8D156y7MurIUK6oTq2U64WSkp9U9vfS5Y/C/EomRh3U8quptqk1vtbXOtvzaUkt0BhBI42g5tlfbV4mROvv540zcWvNdOq+RqvCu7Ptext7LfbtOzn2fNvttzbbb79NgMB4pJ+KLvxDnYz0PCpjpsqr/AHZPJ7NcskuZP+Yl7zntvyt9Nixe1WjfSdBUIbzlHbaEd5SfYQ2SS6tgcnBlyceyqXJbXOqWyfLZCVctn3PaST2PrIwrq1F2U21qXwuyucFJecXJde9d3mBgBsLDu7PtnTa6t17/AGc1W+u23Ptt6d5cPaVm41rwq8fTZYUo17SfZqHaNqO0I7Lazl3+LzYFHBv1aLmSs7KOJkuzbm5OwsUuXfbm2a6Lo+pgzsG6ifZ31WUz7+WyEoPbzW/evUDXBnwsK6+fZ01WWz/DXCU3t57LuRcPZ1oE1rOLRnYklGaufJkVNRltVJ90ls9nsBSATnHePXVqmdXXGNdcLpqMYpRjGKS6JeCNWnh/OnX2sMPJlX38ypsaa8106r5ARoD9en7+RI2aDmxq7aWJkxq2353TYo7eb6dF6gRwPqqEpNRjFylJ7JRTk2/JJdWzcz9Gy8eKnfjX0xfdKyqcY+i3a23A0QAAAAAAAAAAAAHcfYrxRlX42Xj2ODrw6KVTtBJrpYvef+98CK5wXm3cRavjPUezshj1Ts5YwUFLaUdoyXiuZp/Q0/Y3xHiYd+XVl2KmvIqhBWP4VKLl0b8N1N9fQY+Rh6BqeLfhZi1CmUJxt5XBuMG0uX3enN0T+gG5xL7XdRWZbDDdVGPVOUIwdUZuSg+VuTfdvs+i22LHxjrUc7hV5Uao1OyyrnjFbR7VX7Ta802tyL1fhbh7Otnm06xXi12Nzsqcq1JSfWXLGTUovv6bMzcY69pEuHnh4F8doTrjCuT/AJslC33rdn1e/V7gafF/+yGlf1Vf+Npk9qeRKrSuH7IPacFGcWvxRpg1+aIzifWcWzhjTcWF9csiuVfPUpJzilGzfdeHevue+0zWcXI0vR6qb67bKo/zIwknKD7GK95eHUCd9oeirVMnQ8upJwzFXVNryX817/KPafZkr7Xqac7TL/4dc1mn3wg0uu28IqUV9Jr6xI72Vca4VOlurMuqhbiztlUrGlJxlFyXJ5v3pR+pA+ybi2mGZnRz7IQpy07JO1+52qm3s36qTX+EDZ9q9n8FpGl6TF+92ats2/urx+c5Sf8AhNr2zf2+g/0/+ygpPtR12OfqeRbXJTqjy1VtPdOEF8S+cnL8ize1XW8TJu0Z0ZFVqqj/ADHCSlye/S/e8vhl9gLP7XuOcvT8imjD5K5zqU52uuM5OPNJQgt/DdSf1IvijUXqvCyzsmEP4mm3bnjHbdqzklt5KUX3eZXfbVq2Nl6hTZjXV3wWPCLlXLmSkrJtx+ezX3M+HrGKuFLsR31rId0mquZc7j2sXvt5bAWHO1L/APO6LhRxK4PMy1zztlHm2fKpSfrtzRSXcfXst9omVnZ0MTOVdzanOq1VxhOE4xe66dNnHm6kdoutaXrGmUadqd/8Jk4+yquk1FNJcsXzPpvy7JxfluSXB+LoGjZcZy1OvKyJqUVYnDsqYcrbbcW0m9ku/wAQNXhrQaMvifVbciKnXjTnbyNbpzfSLa8Utm9vPYiNR9s2pvJlOhU146k1GqVSlvBPpzS792vLuMen8a14HEOblRfbYl9k4zdfvb1vZxsj57Pw8U2S2Vwbw3kWvKr1munHk3OVPaVKS3e7jHm96K7+m3QCHw+LMHM1/FzcjFqxaVspdeZO3Z8ltnh0l4/Js6JxDk8R05NuTh/wufgyT5KY8vMouPT1k9+vRvf0OXajZw9PVq1XXfDTkuWyUJz2lPwmk/ejX57dX3rYu/Den6TpmT/G08QR/hPfksZWxkmpJ7Rcd93tv093fogK/wCxvUseOqZcsrsaMiyMlVzQVcIWubdkIp/C+7p6NE5xPlcT4uNlxyasbPxrFJdpCCmq4bveXIkn3bd++3myq4eVomo6tqFufKyiq+TdE+bkhGW3Lzz27pPZSW/TdvcufD2Xp2h0ZEp62tQhOG1ePGcbOvXZKKk9m+59yA4Ygeye7b223be3lu+48AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/9k=" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Curso Tailwind CSS</h5>
+                                  <p class="card-text">Tailwind é um framework para CSS. Com ele, é muito mais fácil customizar e fazer a manuntenção do seu site.</p>
+                                  <a href="#" class="btn btn-primary">Matricule-se!</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="tab-pane fade" id="backend-tab-pane" role="tabpanel" aria-labelledby="backend-tab" tabindex="0">
+                <section class="container mt-5">
+                    <div class="row g-5">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">PHP</h5>
+                                  <p class="card-text">PHP é uma linguagem para o back-end. Tem uma sintaxe intuitiva de aprender</p>
+                                  <a href="#" class="btn btn-primary">Matricule-se!</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Node JS</h5>
+                                  <p class="card-text">Software que permite que o usuário use Javascript no back-end.</p>
+                                  <a href="#" class="btn btn-primary">Matricule-se!</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2dyYW1taW5nfGVufDB8fDB8fHww" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">MySQL</h5>
+                                  <p class="card-text">Banco de dados amplamente usado.</p>
+                                  <a href="#" class="btn btn-primary">Matricule-se!</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+          </div>
+      </section>
+    <!--  -->
+
+    <!-- Profissionais -->
+    <section id="profissionais">
+        <h1 class="display-1 d-flex justify-content-center">Profissionais</h1>
+        <hr>
+        <section class="container">
+            <div class="row g-5">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/thispersondoesnotexist2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Manoel Silveira</h5>
+                          <p class="card-text">Graduado em Engenheria de Software na USP. Professor do curso de PHP</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/thispersondoesnotexist1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Carmem Ferreira</h5>
+                          <p class="card-text">Bacharelado em Ciência da Computação na UEL. Professora do curso de React</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagens/thispersondoesnotexist.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Márcio Freitas</h5>
+                          <p class="card-text">Mestrado em Engenharia de Software na PUC. Professor do curso de MySQL</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+    </section>
+    
+    <!-- Contato -->
+        <section class="container-fluid py-5 justify-content-center mt-5" id="contato">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <h2 class="display-6"><b>Contato</b></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, fugiat ab aspernatur voluptatem similique, harum omnis aut cumque excepturi natus repudiandae modi recusandae maxime sapiente inventore molestiae quae sed? Quasi!</p>
+              </div>
+            </div>
+          
+            <div class="row py-5">
+              <div class="col-12 col-lg-5">
+                <img class="img-fluid" src="https://media.istockphoto.com/id/1604032424/pt/foto/happy-businessmen-greeting-while-attending-an-education-event-at-conference-hall.webp?b=1&s=170667a&w=0&k=20&c=F1ILrY4xyS493Ao78ihKBQ9oIxtNzfHRM3D0Wwy-8z8=" alt="">
+              </div>
+
+              <div class="col-12 col-lg-7">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nome completo</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Email</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Telefone</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Digite sua mensagem</label>
+                  </div>
+                  <button class="form-control btn-primary mt-3" style="background-color: blue; color: white; font-weight: bold;">Enviar</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 text-center">
+                <h2 class="display-6"><b>Nosso endereço</b></h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9781.259448458579!2d-51.16640038903629!3d-23.321834879260038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1712859172897!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+
+
+          </div>
+          
+    
+        </section>
+
+        <!--  -->
+
+</body>
+</html>

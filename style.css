@@ -1,0 +1,24 @@
+.navbar-brand img {
+    width: 100px;
+}
+
+.carouselExampleCaptions img {
+    width: 300px;
+}
+
+.carousel-item {
+    height: 800px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover; /* faz a imagem ocupar todo o espaço disponível */
+}
+
+.card img {
+    height: 200px;
+}
+
+#contato {
+    background-color: #e6f2ff;
+}
